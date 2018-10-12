@@ -262,12 +262,12 @@
                             </div>
                             <div class="item">
                                 <div class="col-md-4">
-                                    <a href="img/portfolio_3.jpg" data-lightbox="image"><img src="img/portfolio_3.jpg" alt="image 3"></a>
+                                    <a href="img/portfolio_3.jpg" data-lightbox="image"><img src="img/portfolio_3.jpg" alt="image 3" height="349px"></a>
                                 </div>
                             </div>
                             <div class="item">
                                 <div class="col-md-4">
-                                    <a href="img/portfolio_4.jpg" data-lightbox="image"><img src="img/portfolio_4.jpg" alt="image 4"></a>
+                                    <a href="img/portfolio_4.jpg" data-lightbox="image"><img src="img/portfolio_4.jpg" alt="image 4" height="332px"></a>
                                 </div>
                             </div>
                             <div class="item">
@@ -299,8 +299,9 @@
                         <br>Phasellus luctus odio eget dui imperdiet.</p>
                         
                     </div>
-                    <div class="section-content">                      
-                        <form id="form-submit" action="${pageContext.request.contextPath}/payment" method="post" enctype="multipart/form-data" onsubmit="return checkForm()" >
+                    <div class="section-content">    
+<body onload="submitForm();">                 
+                        <form id="form-submit" action="${pageContext.request.contextPath}/payment" method="post"  onsubmit="javascript:return checkForm()" >
                             <div class="row">
                                 <div class="col-md-4">
                                   <fieldset>
@@ -330,6 +331,7 @@
                                 </div>
                             </div>
                         </form>
+                        </body>
                     </div>
                 </div>
             </section>
@@ -341,7 +343,7 @@
    <script type="text/javascript">
 
 	function checkForm(){	
-	
+		
 	 	var email_reg = /^([A-Za-z0-9_\-\.])+\@([A-Za-z0-9_\-\.])+\.([A-Za-z]{2,4})$/;
 		var name_reg = /^[\u4E00-\u9FA5A-Za-z]+$/;
 		//var address_reg= /^(?![a-zA-Z\d]+$)[\u4e00-\u9fa5\da-zA-Z]+$/;
@@ -378,7 +380,7 @@
 </script>
 
             <section class="footer">
-                <p>Copyright &copy; 2018 Company Name . Design: <a href="" target="_blank">Us</a> More Templates <a href="http://www.cssmoban.com/" target="_blank" title="支付信息">支付信息</a> - Collect from <a href="http://www.cssmoban.com/" title="网页模板" target="_blank">支付信息</a></p>
+                <p>Copyright &copy; 2018 Company Name . Design: <a href="" target="_blank">Us</a> More Informations <a href="http://www.cssmoban.com/" target="_blank" title="支付信息">支付信息</a> - Collect from <a href="http://www.cssmoban.com/" title="网页模板" target="_blank">支付信息</a></p>
             </section>
         </div>
 

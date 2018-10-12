@@ -18,7 +18,7 @@ public class PaymentController {
 	@Autowired
 	PaymentService paymentService;
 	
-	
+//	
 //	@RequestMapping("/payment")
 //	public String Payment(HttpServletRequest request,Model model,HttpSession session){
 //		return "payment";
@@ -36,14 +36,14 @@ public class PaymentController {
         response.setHeader("Access-Control-Allow-Origin", "*");  
         /* 星号表示所有的异域请求都可以接受， */  
         response.setHeader("Access-Control-Allow-Methods", "GET,POST");
-  
+     
         String name = request.getParameter("name");
         String email = request.getParameter("email");
         String tel = request.getParameter("tel");
         String message = request.getParameter("message");
         
         Payment payment = new Payment();
-     
+       
         payment.setName(name);
         payment.setEmail(email);
         payment.setTel(tel);

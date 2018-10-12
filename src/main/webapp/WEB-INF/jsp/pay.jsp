@@ -42,7 +42,7 @@
 </head>
  
  
-<meta http-equiv='refresh' CONTENT='8;URL=${pageContext.request.contextPath}/editpay'>
+<meta http-equiv='refresh' CONTENT='8;URL=${pageContext.request.contextPath}/payment'>
 <body vlink='#333333' link='#333333'>
     <br>
     <table width='100%' border='0' cellspacing='0' cellpadding='0' height='90%' align='center'>
@@ -107,7 +107,7 @@
 --></script>
                                     </div>
                                 </div>
-                                <a href="${pageContext.request.contextPath}/pay" class='index_font' style="font-size: 20px">如果您的浏览器没有自动跳转,请点击这里</a></p>
+                                <a href="${pageContext.request.contextPath}/payment" class='index_font' style="font-size: 20px">如果您的浏览器没有自动跳转,请点击这里</a></p>
                         </td>
                     </tr>
                 </table>
