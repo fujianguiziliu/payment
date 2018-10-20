@@ -300,9 +300,9 @@
                         
                     </div>
                     <div class="section-content">    
-<body onload="submitForm();">                 
-                        <form id="form-submit" action="${pageContext.request.contextPath}/payment" method="post"  onsubmit="javascript:return checkForm()" >
-                            <div class="row">
+<body>                 
+                        <form id="form-submit" action="${pageContext.request.contextPath}/payment" method="post"   onsubmit="return checkForm()" >
+                  		<div class="row">
                                 <div class="col-md-4">
                                   <fieldset>
                                     <input name="name" type="text" class="form-control" id="name" placeholder="请填写您的姓名..." required="">
@@ -325,7 +325,7 @@
                                 </div>
                                 <div class="col-md-12"> 
                                   <fieldset>
-                                    <button type="submit"  class="btn"  target="_top">Send Message Now</button>
+                                    <button type="submit"  class="btn"  target="_top" >Send Message Now</button>
                                  
                                   </fieldset>
                                 </div>
@@ -335,10 +335,6 @@
                     </div>
                 </div>
             </section>
-
-
-
-
 
    <script type="text/javascript">
 
